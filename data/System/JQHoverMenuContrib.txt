@@ -1,0 +1,63 @@
+%META:TOPICINFO{author="micha" comment="reprev" date="1737982582" format="1.1" reprev="2" version="2"}%
+---+!! %TOPIC%
+%FORMFIELD{"Description"}%
+
+%TOC%
+
+---++ Description
+
+creates a simple drop down menu
+
+---++ Usage
+
+<verbatim>
+%JQREQUIRE{"hoverMenu"}%
+<ul class="foswikiHoverMenu" data-menu="ul:first" data-sensitivity="3" data-timeout="500">
+  <li><a>Menu 1</a>
+    <ul>
+     <li> [[Link 1]] </li>
+     <li> [[Link 2]] </li>
+     <li> [[Link 3]] </li>
+     <li> [[Link 4]] </li>
+    </ul>
+  </li>
+  <li><a>Menu 2</a>
+    <ul>
+     <li> [[Link 5]] </li>
+     <li> [[Link 6]] </li>
+     <li> [[Link 7]] </li>
+     <li> [[Link 8]] </li>
+    </ul>
+  </li>
+</ul>
+</verbatim>
+
+Parameters:
+
+  * data-menu: the list for this button
+  * data-sensitivity: the higher the value the more sensitive the hover action is to opening the menu
+  * data-timeout: timeout when the hover event is triggered
+
+See [[JQueryHoverIntent]] for more details on the parameters.
+
+---++ Installation Instructions
+%$INSTALL_INSTRUCTIONS%
+
+---++ Dependencies
+%$DEPENDENCIES%
+
+---++ Change History
+
+%TABLE{columnwidths="7em" tablewidth="100%"}%
+|  27 Jan 2025 | initial release |
+
+%META:FORM{name="PackageForm"}%
+%META:FIELD{name="Author" title="Author" value="Michael Daum"}%
+%META:FIELD{name="Version" title="Version" value="%25$VERSION%25"}%
+%META:FIELD{name="Release" title="Release" value="%25$RELEASE%25"}%
+%META:FIELD{name="Description" title="Description" value="%25$SHORTDESCRIPTION%25"}%
+%META:FIELD{name="Repository" title="Repository" value="https://github.com/foswiki/%25$ROOTMODULE%25"}%
+%META:FIELD{name="Copyright" title="Copyright" value="2023-2025, Michael Daum, All Rights Reserved"}%
+%META:FIELD{name="License" value="GPL ([[http://www.gnu.org/copyleft/gpl.html][GNU General Public License]])"}%
+%META:FIELD{name="Home" value="http://foswiki.org/Extensions/%25$ROOTMODULE%25"}%
+%META:FIELD{name="Support" value="http://foswiki.org/Support/%25$ROOTMODULE%25"}%

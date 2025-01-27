@@ -1,0 +1,14 @@
+!noci
+data/System/JQHoverMenuContrib.txt 0644
+lib/Foswiki/Contrib/JQHoverMenuContrib/Config.spec 0644
+lib/Foswiki/Contrib/JQHoverMenuContrib/Core.pm 0644
+lib/Foswiki/Contrib/JQHoverMenuContrib/DEPENDENCIES 0644
+lib/Foswiki/Contrib/JQHoverMenuContrib/MANIFEST 0644
+lib/Foswiki/Contrib/JQHoverMenuContrib.pm 0644
+pub/System/JQHoverMenuContrib/hoverMenu.css 0644
+pub/System/JQHoverMenuContrib/hoverMenu.css.gz 0644
+pub/System/JQHoverMenuContrib/hoverMenu.js 0644
+pub/System/JQHoverMenuContrib/hoverMenu.js.gz 0644
+pub/System/JQHoverMenuContrib/hoverMenu.uncompressed.css 0644
+pub/System/JQHoverMenuContrib/hoverMenu.uncompressed.js 0644
+pub/System/JQHoverMenuContrib/Makefile 0644
